@@ -15,6 +15,7 @@
 body {
     font-family: 'archivo-black';
     margin: 0px;
+    font-size: 1em;
 }
 
 .heading-title {
@@ -88,4 +89,180 @@ body {
 
 .color-initial {
     color: initial;
+}
+
+#ieShardulDiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: -5px;
+}
+
+#section1OuterDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+#page2ShardulDiv {
+    font-size: 2.25em; 
+    margin-right: 5px;
+}
+
+#page3HeaderDiv {
+    margin-top: -2.5em;
+}
+
+#page4OuterDiv {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-evenly; 
+    height: 80%; 
+    margin-top: -5em;
+}
+
+#page4ShardulDiv {
+    display: flex;
+    align-items: baseline;
+}
+
+#page3ContainerDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80%;
+}
+
+#page3CuteProjectDiv {
+    width: 100%;
+    height: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-top: 1.5em;
+}
+
+#page3LongTextWrapperDiv {
+    width: 83%;
+}
+
+#page5SecondDiv {
+    width: 80%;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    body {
+        font-size: 1.5em;
+    }
+
+    #section1OuterDiv {
+        flex-direction: row;
+        justify-content: space-evenly;
+        max-width: 1200px;
+    }
+
+    .hero-image {
+        height: 75vh;
+    }
+
+    .medium-font {
+        font-size: 2.5em;
+    }
+
+    #page2ShardulDiv {
+        font-size: 3.25em;
+        margin-right: 15px;
+    }
+
+    #page3HeaderDiv {
+        margin-top: 1em;
+    }
+
+    #page4OuterDiv {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 80%;
+        align-items: center;
+    }
+
+    #page5FirstDiv {
+        margin-top: 5em;
+    }
+
+    .halfFlexPage4Divs {
+        flex-basis: 50%;
+    }
+
+    .center-align-desktop {
+        text-align: center;
+    }
+
+    #page4ShardulDiv {
+        justify-content: center;
+    }
+
+    #page3ContainerDiv {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #page3LongTextWrapperDiv {
+        width: auto;
+    }
+
+    #page3HeaderWrapperDiv {
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .desktop-medium-font {
+        font-size: 1.2em;
+    }
+
+    .floating-button {
+        bottom: 2em;
+        right: 6em;
+        width: 150px;
+        height: 150px;
+        font-size: 1em;
+    }
+
+    .duckie-offcenter-button {
+        width: 40px;
+    }
+
+    #page5outerDiv {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 80vw;
+    }
+
+    .consistent-font-desktop {
+        font-size: 1.5em;
+    }
+
+    #page5FirstDiv {
+        margin-top: 0px;
+    }
+
+    #page5SecondDiv {
+        width: 40%;
+    }
+
+    .duckie-footer {
+        width: 40px;
+    }
 }
